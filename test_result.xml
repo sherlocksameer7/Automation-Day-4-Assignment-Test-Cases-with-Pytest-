@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="10" tests="25" time="0.203" timestamp="2022-03-29T22:21:30.207205" hostname="Sherlock-Brothers"><testcase classname="test_five_operations" name="test_armstrong_or_not[150-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_five_operations" name="test_armstrong_or_not[370-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_five_operations" name="test_armstrong_or_not[371-False]" time="0.001" /><testcase classname="test_five_operations" name="test_armstrong_or_not[407-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_five_operations" name="test_armstrong_or_not[1-True]" time="0.001" /><testcase classname="test_five_operations" name="test_armstrong_or_not[137-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_five_operations" name="test_divisible_by_8[16-True]" time="0.001" /><testcase classname="test_five_operations" name="test_divisible_by_8[42-True]" time="0.001"><failure message="assert False == True">a = 42, b = True
+
+    @pytest.mark.parametrize("a, b", [(16, True), (42, True), (56, True), (66, True), (72, True), (43, True)])
+    def test_divisible_by_8(a, b):
+        Res = five_operations.Divisible_by_8_Not(a)
+&gt;       assert Res == b
+E       assert False == True
+
+test_five_operations.py:16: AssertionError</failure></testcase><testcase classname="test_five_operations" name="test_divisible_by_8[56-True]" time="0.001" /><testcase classname="test_five_operations" name="test_divisible_by_8[66-True]" time="0.001"><failure message="assert False == True">a = 66, b = True
+
+    @pytest.mark.parametrize("a, b", [(16, True), (42, True), (56, True), (66, True), (72, True), (43, True)])
+    def test_divisible_by_8(a, b):
+        Res = five_operations.Divisible_by_8_Not(a)
+&gt;       assert Res == b
+E       assert False == True
+
+test_five_operations.py:16: AssertionError</failure></testcase><testcase classname="test_five_operations" name="test_divisible_by_8[72-True]" time="0.001" /><testcase classname="test_five_operations" name="test_divisible_by_8[43-True]" time="0.001"><failure message="assert False == True">a = 43, b = True
+
+    @pytest.mark.parametrize("a, b", [(16, True), (42, True), (56, True), (66, True), (72, True), (43, True)])
+    def test_divisible_by_8(a, b):
+        Res = five_operations.Divisible_by_8_Not(a)
+&gt;       assert Res == b
+E       assert False == True
+
+test_five_operations.py:16: AssertionError</failure></testcase><testcase classname="test_five_operations" name="test_Smallest[2-3-4-2]" time="0.001" /><testcase classname="test_five_operations" name="test_Smallest[4-3-5-3]" time="0.001" /><testcase classname="test_five_operations" name="test_Smallest[15-16-14-14]" time="0.001" /><testcase classname="test_five_operations" name="test_Smallest[12-32-34-14]" time="0.001"><failure message="assert 12 == 14">a = 12, b = 32, c = 34, res = 14
+
+    @pytest.mark.parametrize("a, b, c, res",[(2, 3, 4, 2), (4, 3, 5, 3), (15, 16, 14, 14), (12, 32, 34, 14), (13, 8, 7, 17)])
+    def test_Smallest(a, b, c, res):
+        Result = five_operations.Smallest_among_3(a, b, c)
+&gt;       assert Result == res
+E       assert 12 == 14
+
+test_five_operations.py:23: AssertionError</failure></testcase><testcase classname="test_five_operations" name="test_Smallest[13-8-7-17]" time="0.001"><failure message="assert 7 == 17">a = 13, b = 8, c = 7, res = 17
+
+    @pytest.mark.parametrize("a, b, c, res",[(2, 3, 4, 2), (4, 3, 5, 3), (15, 16, 14, 14), (12, 32, 34, 14), (13, 8, 7, 17)])
+    def test_Smallest(a, b, c, res):
+        Result = five_operations.Smallest_among_3(a, b, c)
+&gt;       assert Result == res
+E       assert 7 == 17
+
+test_five_operations.py:23: AssertionError</failure></testcase><testcase classname="test_five_operations" name="test_Evenorodd[2-True]" time="0.000"><skipped type="pytest.skip" message="No Need">C:\Users\sherl\PycharmProjects\ Assignment Auto Day 4 Armstrong or Not\test_five_operations.py:27: No Need</skipped></testcase><testcase classname="test_five_operations" name="test_Evenorodd[5-False]" time="0.000"><skipped type="pytest.skip" message="No Need">C:\Users\sherl\PycharmProjects\ Assignment Auto Day 4 Armstrong or Not\test_five_operations.py:27: No Need</skipped></testcase><testcase classname="test_five_operations" name="test_Evenorodd[14-True]" time="0.000"><skipped type="pytest.skip" message="No Need">C:\Users\sherl\PycharmProjects\ Assignment Auto Day 4 Armstrong or Not\test_five_operations.py:27: No Need</skipped></testcase><testcase classname="test_five_operations" name="test_String_Pslindrome[mom-True]" time="0.001" /><testcase classname="test_five_operations" name="test_String_Pslindrome[fizz-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_five_operations" name="test_String_Pslindrome[madam-True]" time="0.001" /><testcase classname="test_five_operations" name="test_String_Pslindrome[sameer-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_five_operations" name="test_String_Pslindrome[sherlock-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase></testsuite></testsuites>
